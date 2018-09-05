@@ -1,5 +1,8 @@
 package au.com.itravel.iTravelAPI;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 /**
  * Hello world!
  *
@@ -16,5 +19,8 @@ public class App
         };
         
         a.showSomething();
+        
+        Collection<String> aCollection = new ArrayList<String>();
+        
     }
 }
